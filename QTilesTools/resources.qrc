@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/plugins/QTilesTools" >
+        <file>icon.png</file>
+        <file>tilelayer_icon.png</file>
+        <file>geoodkcollect_icon.png</file>
+    </qresource>
+</RCC>

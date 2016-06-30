@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=QTiles Tools
+qgisMinimumVersion=2.0
+description=Tools to use QTiles outputs for offline base map use with QGIS and GeoODK Collect
+version=0.5
+author=Apropos Information Systems
+email=tsw@aproposinfosystems.com
+
+about=The QTiles plugin enables users to create local tile caches, either as a directory structure in mbtiles format of their QGIS maps. The QTiles Tools package provides two simple tools to make using these tile caches as offline basemaps in QGIS and GeoODK. Offline tile caches can be used easily using the TileLayerPlugin. The QTiles TileLayer Tool make it easy to create a TileLayer configuration file. The mbtiles format can be used in GeoODK Collect but as of the 2nd quarter of 2016, mbtiles databases created using QTiles don't function within GeoODK Collect. This QTiles GeoODK Tool modifies the QTiles mbtiles database for use with GeoODK Collect. If the QTiles Plugin later adds this functionality directly then the QTiles Tool plugin will be deprecated.
+
+tracker=http://github.com/tsw-apropos/qtilestools/issues
+repository=http://github.com/tsw-apropos/qtilestools
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=GeoODK, tile cache, tile layer
+
+homepage=http://aproposinfosystems.com/solutions/qtilestools
+category=Raster
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
